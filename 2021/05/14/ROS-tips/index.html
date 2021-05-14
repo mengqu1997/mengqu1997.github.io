@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="ROS," />
 
 
 
@@ -79,12 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Meng&#39;s Blog">
-<meta property="og:url" content="https://mengqu1997.github.io/index.html">
+<meta name="description" content="Robot Project ManualWorkshop 2First thing to doRun:roscore Note: You must leave roscore running in the terminal ! Understanding ROS nodesrosnode displays information about the ROS nodes that are curre">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ROS tips">
+<meta property="og:url" content="https://mengqu1997.github.io/2021/05/14/ROS-tips/index.html">
 <meta property="og:site_name" content="Meng&#39;s Blog">
+<meta property="og:description" content="Robot Project ManualWorkshop 2First thing to doRun:roscore Note: You must leave roscore running in the terminal ! Understanding ROS nodesrosnode displays information about the ROS nodes that are curre">
 <meta property="og:locale">
+<meta property="article:published_time" content="2021-05-14T03:46:46.000Z">
+<meta property="article:modified_time" content="2021-05-14T03:48:21.251Z">
 <meta property="article:author" content="Meng Qu">
+<meta property="article:tag" content="ROS">
 <meta name="twitter:card" content="summary">
 
 
@@ -115,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://mengqu1997.github.io/"/>
+  <link rel="canonical" href="https://mengqu1997.github.io/2021/05/14/ROS-tips/"/>
 
 
 
 
 
-  <title>Meng's Blog</title>
+  <title>ROS tips | Meng's Blog</title>
   
 
 
@@ -140,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -234,9 +238,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -266,9 +270,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2021/05/14/ROS-tips/" itemprop="url">ROS tips</a></h1>
+          <h1 class="post-title" itemprop="name headline">ROS tips</h1>
         
 
         <div class="post-meta">
@@ -340,9 +342,7 @@
       
 
       
-        
-          
-            <h1 id="Robot-Project-Manual"><a href="#Robot-Project-Manual" class="headerlink" title="Robot Project Manual"></a>Robot Project Manual</h1><h2 id="Workshop-2"><a href="#Workshop-2" class="headerlink" title="Workshop 2"></a>Workshop 2</h2><h3 id="First-thing-to-do"><a href="#First-thing-to-do" class="headerlink" title="First thing to do"></a>First thing to do</h3><p>Run:<code>roscore</code></p>
+        <h1 id="Robot-Project-Manual"><a href="#Robot-Project-Manual" class="headerlink" title="Robot Project Manual"></a>Robot Project Manual</h1><h2 id="Workshop-2"><a href="#Workshop-2" class="headerlink" title="Workshop 2"></a>Workshop 2</h2><h3 id="First-thing-to-do"><a href="#First-thing-to-do" class="headerlink" title="First thing to do"></a>First thing to do</h3><p>Run:<code>roscore</code></p>
 <p>Note: You must leave <code>roscore</code> running in the terminal !</p>
 <h3 id="Understanding-ROS-nodes"><a href="#Understanding-ROS-nodes" class="headerlink" title="Understanding ROS nodes"></a>Understanding ROS nodes</h3><p><code>rosnode</code> displays information about the ROS nodes that are currently running. The <code>rosnode list</code> command lists these active nodes:</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rosnode list</span><br></pre></td></tr></table></figure>
@@ -432,8 +432,6 @@
 
 
 
-          
-        
       
     </div>
     
@@ -448,14 +446,20 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/ROS/" rel="tag"># ROS</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -465,10 +469,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -476,6 +481,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -496,8 +505,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -557,6 +575,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Robot-Project-Manual"><span class="nav-number">1.</span> <span class="nav-text">Robot Project Manual</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Workshop-2"><span class="nav-number">1.1.</span> <span class="nav-text">Workshop 2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#First-thing-to-do"><span class="nav-number">1.1.1.</span> <span class="nav-text">First thing to do</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Understanding-ROS-nodes"><span class="nav-number">1.1.2.</span> <span class="nav-text">Understanding ROS nodes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Using-rosrun-Task-1"><span class="nav-number">1.1.3.</span> <span class="nav-text">Using rosrun (Task 1)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Understanding-ROS-topics-Task-2"><span class="nav-number">1.1.4.</span> <span class="nav-text">Understanding ROS topics (Task 2)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Introducing-rostopic"><span class="nav-number">1.1.4.1.</span> <span class="nav-text">Introducing rostopic</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Using-rostopic-pub"><span class="nav-number">1.1.4.2.</span> <span class="nav-text">Using rostopic pub</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Understanding-ROS-parameters-and-services-Task-3"><span class="nav-number">1.1.5.</span> <span class="nav-text">Understanding ROS parameters and services (Task 3)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#rosparam-list"><span class="nav-number">1.1.5.1.</span> <span class="nav-text">rosparam list</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#rosparam-set-and-rosparam-get"><span class="nav-number">1.1.5.2.</span> <span class="nav-text">rosparam set and rosparam get</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Change-the-background-to-orange"><span class="nav-number">1.1.5.3.</span> <span class="nav-text">Change the background to orange</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Write-Letter"><span class="nav-number">1.1.6.</span> <span class="nav-text">Write Letter</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -690,6 +724,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
